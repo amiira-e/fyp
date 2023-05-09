@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "04bb0876-ee4a-11ed-bef2-842afd72350c", "parents": "root", "rule": "else: return '0'", "feature_idx": -1, "feature_name": "", "instances": 50, "metric": 0, "return_statement": 0, "tree_id": 0}, 
+{"current_level": 1, "leaf_id": "04bd6d0a-ee4a-11ed-817f-842afd72350c", "parents": "root", "rule": "if obj[0] == 'PAYMENT':", "feature_idx": 0, "feature_name": "type", "instances": 50, "metric": 0.0, "return_statement": 0, "tree_id": 0}, 
+{"current_level": 2, "leaf_id": "04bd6d0b-ee4a-11ed-a933-842afd72350c", "parents": "04bd6d0a-ee4a-11ed-817f-842afd72350c", "rule": "return '0'", "feature_idx": 0, "feature_name": "type", "instances": 50, "metric": 0, "return_statement": 1, "tree_id": 0}, 
+{"current_level": 1, "leaf_id": "04c2319c-ee4a-11ed-8e4b-842afd72350c", "parents": "root", "rule": "if obj[0] == 'CASH_OUT':", "feature_idx": 0, "feature_name": "type", "instances": 50, "metric": 0.0, "return_statement": 0, "tree_id": 0}, 
+{"current_level": 2, "leaf_id": "04c2319d-ee4a-11ed-bb71-842afd72350c", "parents": "04c2319c-ee4a-11ed-8e4b-842afd72350c", "rule": "return '0'", "feature_idx": 0, "feature_name": "type", "instances": 50, "metric": 0, "return_statement": 1, "tree_id": 0}, 
+{"current_level": 1, "leaf_id": "04c95922-ee4a-11ed-aa13-842afd72350c", "parents": "root", "rule": "if obj[0] == 'CASH_IN':", "feature_idx": 0, "feature_name": "type", "instances": 50, "metric": 0.0, "return_statement": 0, "tree_id": 0}, 
+{"current_level": 2, "leaf_id": "04c95923-ee4a-11ed-b39c-842afd72350c", "parents": "04c95922-ee4a-11ed-aa13-842afd72350c", "rule": "return '0'", "feature_idx": 0, "feature_name": "type", "instances": 50, "metric": 0, "return_statement": 1, "tree_id": 0}, 
+{"current_level": 1, "leaf_id": "04d07fe8-ee4a-11ed-92f5-842afd72350c", "parents": "root", "rule": "if obj[0] == 'TRANSFER':", "feature_idx": 0, "feature_name": "type", "instances": 50, "metric": 0.0, "return_statement": 0, "tree_id": 0}, 
+{"current_level": 2, "leaf_id": "04d07fe9-ee4a-11ed-9ef7-842afd72350c", "parents": "04d07fe8-ee4a-11ed-92f5-842afd72350c", "rule": "return '0'", "feature_idx": 0, "feature_name": "type", "instances": 50, "metric": 0, "return_statement": 1, "tree_id": 0}
+]
